@@ -6,7 +6,7 @@ ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
 
 # Install system dependencies required by dlib and other packages
-RUN apt-get update && apt-get install -y build-essential cmake
+RUN apt-get update && apt-get install -y build-essential cmake python3-dlib
 
 # Set the working directory in the container
 WORKDIR /app
