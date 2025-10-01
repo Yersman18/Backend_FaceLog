@@ -1,0 +1,10 @@
+POST http://127.0.0.1:8000/api/v1/auth/register/student/
+Content-Type: application/json
+
+{
+  "username": "aprendiz01",
+  "password": "123456",
+  "first_name": "Carlos",
+  "last_name": "Pérez",
+  "email": "carlos@sena.edu.co"
+}
